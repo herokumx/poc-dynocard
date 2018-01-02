@@ -1,0 +1,52 @@
+$deep-color: #111;
+$light-color: #222;
+$overlay: #fff;
+
+.drop-gradient { /* Chrome 10-25, Safari 5.1-6 */
+    background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgba(145, 255, 222, 0.5), rgba(0, 121, 145, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgba(145, 255, 222, 0.5), rgba(0, 121, 145, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+#drop-contentloader {
+	background-image: url(../../images/loader.gif);
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.drop-menu a,
+.contact-details a,
+.team-2 .team-member .social a {
+	color: $deep-color;
+}
+p {
+	color: $light-color;
+}
+
+.contact-form input,
+.contact-form textarea {
+	border-color: $light-color;
+}
+::-webkit-input-placeholder {
+   color: $light-color;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $light-color;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $light-color;  
+}
+
+:-ms-input-placeholder {  
+   color: $light-color;  
+}
+
+.team-2 .team-member .team-overlay {
+	background-color: rgba($overlay, 0.9); 
+}

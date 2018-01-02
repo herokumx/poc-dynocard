@@ -1,0 +1,85 @@
+/*write some responsive code here */
+/* Portrait tablets and medium desktops */
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-wrapper {
+    padding: 60px 0 0;
+  }
+
+  .page-section {
+    max-height: 900px;
+  }
+
+  .drop-menu li {
+    padding-top: 5px;
+  }
+
+  .drop-countdown {
+    font-size: 50px;
+  }
+
+  .drop-header {
+    top: 15px;
+  }
+
+  .team-member {
+    margin-bottom: 20px;
+  }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .drop-header {
+    top: 10px;
+  }
+
+  .main-wrapper {
+    padding: 110px 0 20px;
+  }
+
+  .page-section {
+    padding-top: 0;
+    max-height: 600px;
+  }
+
+  .team-member {
+    margin-bottom: 20px;
+  }
+
+  .drop-logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .drop-logo {
+    max-width: 90px;
+    margin-bottom: 10px;
+  }
+
+  .drop-menu {
+    text-align: center;
+  }
+
+  .drop-menu a {
+    font-size: 12px;
+  }
+
+  .drop-countdown {
+    font-size: 30px;
+  }
+}
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  .drop-countdown {
+    font-size: 25px;
+  }
+}
+/* portrait phones */
+@media (min-width: 320px) and (max-width: 420px) {
+  .drop-countdown {
+    font-size: 20px;
+  }
+
+  .drop-menu li {
+    padding: 5px;
+  }
+}

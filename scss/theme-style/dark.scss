@@ -1,0 +1,48 @@
+$deep-color: #fff;
+$light-color: #f2f3f7;
+$overlay: #333;
+.drop-gradient { /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgba(#43cea2, 0.7) , rgba(#185a9d, 0.7));        
+}
+#drop-contentloader {
+	background-image: url(../../images/loader-white.gif);
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.drop-menu a,
+.contact-details a,
+.team-2 .team-member .social a {
+	color: $deep-color;
+}
+p {
+	color: $light-color;
+}
+
+.contact-form input,
+.contact-form textarea {
+	border-color: $light-color;
+}
+::-webkit-input-placeholder {
+   color: $light-color;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $light-color;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $light-color;  
+}
+
+:-ms-input-placeholder {  
+   color: $light-color;  
+}
+
+.team-2 .team-member .team-overlay {
+	background-color: rgba($overlay, 0.9); 
+}

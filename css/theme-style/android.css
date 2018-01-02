@@ -1,0 +1,8 @@
+.contact-form input,
+.contact-form textarea {
+  border-radius: 5px;
+}
+
+.atom-btn {
+  border-radius: 5px;
+}

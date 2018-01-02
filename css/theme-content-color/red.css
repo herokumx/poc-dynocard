@@ -1,0 +1,37 @@
+::-moz-selection {
+  color: #fff;
+  background-color: #FF0000;
+}
+
+::selection {
+  color: #fff;
+  background-color: #FF0000;
+}
+
+.drop-solidopacity {
+  background-color: rgba(242, 84, 84, 0.4);
+}
+
+.drop-menu a:hover,
+.drop-menu li.active > a,
+.theme-color,
+.service:hover .service-icon i,
+.atom-btn:hover,
+.atom-btn:focus,
+.contact-details a:hover {
+  color: #FF0000;
+}
+
+.nicescroll-cursors,
+.drop-menu a:after,
+.atom-btn,
+input:focus,
+textarea:focus {
+  border-color: #FF0000 !important;
+}
+
+.nicescroll-cursors,
+.drop-menu li.active > a:after,
+.atom-btn {
+  background-color: #FF0000 !important;
+}
