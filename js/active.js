@@ -27,7 +27,7 @@
           $('.drop-countdown').countdown({
             date: endDate,
             render: function(data) {
-              $(this.el).html('<div><div><span>' + (parseInt(this.leadingZeros(data.years, 2)*365, 10) + parseInt(this.leadingZeros(data.days, 2), 10)) + '</span><span>Days</span></div><div><span>' + this.leadingZeros(data.hours, 2) + '</span><span>h</span></div></div><div class="drop-countdown-ms"><div><span>' + this.leadingZeros(data.min, 2) + '</span><span>m</span></div><div><span class="theme-color">' + this.leadingZeros(data.sec, 2) + '</span><span class="theme-color">s</span></div></div>');
+              $(this.el).html('<div><div><span>' + (parseInt(this.leadingZeros(data.years, 0)*365, 10) + parseInt(this.leadingZeros(data.days, 2), 10)) + '</span><span>Days</span></div><div><span>' + this.leadingZeros(data.hours, 2) + '</span><span>h</span></div></div><div class="drop-countdown-ms"><div><span>' + this.leadingZeros(data.min, 2) + '</span><span>m</span></div><div><span class="theme-color">' + this.leadingZeros(data.sec, 2) + '</span><span class="theme-color">s</span></div></div>');
             }
           });
           // nicescroll 
