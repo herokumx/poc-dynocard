@@ -23,7 +23,7 @@
         $(window).trigger("resize");
         // Countdown
           // To change date, simply edit: var endDate = "Aug 26, 2019 20:39:00";
-          var endDate = "Aug 26, 2019 20:39:00";
+          var endDate = "Feb 21, 2018 08:00:00";
           $('.drop-countdown').countdown({
             date: endDate,
             render: function(data) {
